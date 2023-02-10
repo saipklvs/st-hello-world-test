@@ -60,13 +60,6 @@ To run this code live, click the 'Run in Google Colab' link above.
 If you haven't installed the following dependencies, run:
 """
 
-!sudo apt-get update
-!sudo apt-get install -y xvfb ffmpeg freeglut3-dev
-!pip install 'imageio==2.4.0'
-!pip install pyvirtualdisplay
-!pip install tf-agents[reverb]
-!pip install pyglet
-
 from __future__ import absolute_import, division, print_function
 
 import base64
