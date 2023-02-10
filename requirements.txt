@@ -1,9 +1,12 @@
 streamlit
-imageio==2.4.0
+imageio
 pyvirtualdisplay
-tf-agents[reverb]
+# tf-agents[reverb]
 pyglet
 tensorflow
 matplotlib
 numpy
 pandas
+Ipython
+reverb
+tf_agents
