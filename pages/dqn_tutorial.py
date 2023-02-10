@@ -410,10 +410,6 @@ The following will take ~5 minutes to run.
 
 # Commented out IPython magic to ensure Python compatibility.
 #@test {"skip": true}
-try:
-#   %%time
-except:
-  pass
 
 # (Optional) Optimize by wrapping some of the code in a graph using TF function.
 agent.train = common.function(agent.train)
